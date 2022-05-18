@@ -1,0 +1,36 @@
+.avatar {
+    margin-top: 20px;
+    width: 100%;
+    height: 600px;
+}
+.avatar-container,
+.avatar-container-username > img,
+ .avatar-container-username > h2 {
+    display: inline-block
+}
+
+.avatar-container {
+    width: 600px;
+    position: relative;
+    left: 450px;
+}
+
+.avatar-container-username {
+    position: relative;
+    top: 60px;
+    left: 40px;
+}
+
+.avatar-container-username > h2 {
+    position: relative;
+    bottom: 2px;
+    font-size: 32px;
+    font-weight: 600;
+}
+.avatar-container-img > img {
+    border-radius: 50%;
+}
+.avatar-container-img,
+.avatar-container-username {
+    float: left;
+}

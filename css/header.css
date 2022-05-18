@@ -1,0 +1,89 @@
+.header {
+    background-color: #dee1e3;
+}
+
+
+/* HEADER BEGIN */
+.header-logo,
+.header-nav,
+.header-right,
+.header-info,
+.header-settings,
+.header-info-avatar,
+.header-info-username,
+.header-settings-ul-li,
+.header-nav-ul-li {
+    display: inline-block;
+}
+
+.header-logo {
+    width: 170px;
+    text-align: center;
+}
+
+.header-logo > img {
+    width: 118px;
+    height: 30px;
+    position: relative;
+    top: 5px;
+}
+.header,
+.header-nav, 
+.header-logo,
+.header-nav-ul,
+.header-info,
+.header-info-avatar,
+.header-settings,
+.header-settings-ul {
+    height: 40px;
+}
+
+.header-nav {
+    margin-left: 43px;
+    position: relative;
+    bottom: 17px;
+}
+
+.header-nav-ul-li {
+    margin-left: 70px;
+    position: relative;
+    top: 10px;
+}
+
+.header-nav-ul-li-a {
+    color: #393b3d;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.header-right {
+    float: right;
+}
+
+.header-info-avatar > img {
+    border-radius: 50%;
+    position: relative;
+    top: 5px;
+}
+
+.header-info-username > h5 {
+    font-size: 12px;
+    position: relative;
+    bottom: 4px;
+}
+
+.header-right > div {
+    margin-left: 9px;
+}
+
+.header-settings-ul-li {
+    position: relative;
+    top: 5px;
+    vertical-align: center;
+}
+
+.robux-counter {
+    position: relative;
+    bottom: 8px;
+}
+/* HEADER END */
